@@ -70,7 +70,6 @@ void cetak() {
   bantu = head;
   while (bantu != NULL) {
     cout << bantu->data << " ";
-    //head = bantu;
     bantu = bantu->next;
   }
 }
